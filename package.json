@@ -1,0 +1,20 @@
+{
+  "name": "qameeting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:applyDigital": "playwright test --config=playwright.config.js --project=applyDigital"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "@playwright/test": "^1.39.0"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "faker-js": "^1.0.0"
+  }
+}
